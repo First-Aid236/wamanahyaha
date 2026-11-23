@@ -35,3 +35,42 @@
 .person-icon-wrap{width:36px;height:36px;flex:0 0 36px;border-radius:11px;background:var(--soft);color:var(--r);display:grid;place-items:center}
 .person-icon{width:21px;height:21px;display:block}
 @media(max-width:480px){.about-copy h2,.team-block h2{font-size:26px}.about-copy p{font-size:14px}.team-member b{font-size:13px}}
+
+
+/* Typography update v1.4: larger, clearer text across the interface */
+body{font-size:16px}
+header b{font-size:19px}
+header small{font-size:12px}
+header label{font-size:13px}
+.hero p,.heading p{font-size:18px;line-height:2.05}
+.hero aside{font-size:12px}
+.red{font-size:13px}
+.heading h2{font-size:42px}
+.level b{font-size:16px}
+.level small,.level em{font-size:12px}
+.playtop small{font-size:12px}
+.playtop b{font-size:18px}
+.playtop strong{font-size:13px}
+.story{font-size:14px;line-height:2}
+.objecthead h3{font-size:19px}
+.objecthead>small{font-size:11px}
+.objbtn b{font-size:12px}
+.actions>small{font-size:13px}
+.actions h3,.question-area h3{font-size:22px}
+.actions>p,.question-area>p{font-size:14px;line-height:2}
+.picked{font-size:13px}
+.choice{font-size:13px;line-height:1.9}
+.feedback{font-size:13px;line-height:2}
+.muted{font-size:12px}
+.notice b{font-size:12px}
+.notice p{font-size:11px;line-height:2}
+.about-copy h2,.team-block h2{font-size:35px}
+.about-copy p{font-size:18px;line-height:2.2}
+.team-block>.red,.about-copy>.red{font-size:14px}
+.team-member{min-height:68px;padding:13px 15px;gap:14px}
+.team-member b{font-size:17px;line-height:1.8}
+.person-icon-wrap{width:40px;height:40px;flex:0 0 40px}
+.person-icon{width:24px;height:24px}
+footer{font-size:12px}
+@media(max-width:800px){.hero p,.heading p{font-size:16px}.about-copy h2,.team-block h2{font-size:31px}.about-copy p{font-size:16px}.team-member b{font-size:16px}}
+@media(max-width:480px){.hero p,.heading p{font-size:15px}.about-copy h2,.team-block h2{font-size:28px}.about-copy p{font-size:15px}.team-member b{font-size:15px}.level b{font-size:15px}.choice{font-size:12px}}
