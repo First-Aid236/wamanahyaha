@@ -23,3 +23,15 @@
 .team-member b{font-size:11px;color:#39434d}
 @media(max-width:800px){.about-team{grid-template-columns:1fr;padding:22px;gap:24px}.team-block{border-right:0;border-top:1px solid #f0dfe0;padding:20px 0 0}}
 @media(max-width:480px){.team-grid{grid-template-columns:1fr}.team-member:last-child{grid-column:auto}.about-copy h2,.team-block h2{font-size:23px}}
+
+
+/* Readability refinement: slightly larger typography and person icons */
+.hero p,.heading p{font-size:16px}
+.about-copy h2,.team-block h2{font-size:30px}
+.about-copy p{font-size:15px;line-height:2.2}
+.team-block>.red,.about-copy>.red{font-size:13px}
+.team-member{min-height:60px;gap:12px;padding:11px 13px}
+.team-member b{font-size:14px;line-height:1.7}
+.person-icon-wrap{width:36px;height:36px;flex:0 0 36px;border-radius:11px;background:var(--soft);color:var(--r);display:grid;place-items:center}
+.person-icon{width:21px;height:21px;display:block}
+@media(max-width:480px){.about-copy h2,.team-block h2{font-size:26px}.about-copy p{font-size:14px}.team-member b{font-size:13px}}
